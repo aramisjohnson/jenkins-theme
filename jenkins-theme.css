@@ -1,0 +1,16 @@
+.logo img {
+  content:url("http://localhost:8080/jenkins/userContent/layout/logo.png");
+}
+
+.logo span {
+  display: none;
+}
+
+.logo:after {
+  content: 'Jenkins. My instance (powered by CJE)';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 6px;
+  margin-right: 12px;
+  color: white;
+}
